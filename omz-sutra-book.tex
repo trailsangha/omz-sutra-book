@@ -4,12 +4,18 @@
 %        0         0         0         0         0         0         0         %
 %------------------------------------------------------------------------------%
 %
+%
+% Ordinary Mind Zendo
+% developer@ordinarymind.com
+% http://www.ordinarymind.com
+%
 % Cameron Crowe
 % trailsangha@gmail.com
 % http://www.trailsangha.com
 % http://www.github.com/trailsangha/omz-sutrabook
 %
-% Ordinary Mind Zendo sutrabook
+% Ordinary Mind Zendo sutrabook.
+%
 %
 % MIT License
 % 
@@ -32,7 +38,7 @@
 % LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 % OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 % SOFTWARE.
-%
+
 
 \documentclass[12pt]{report}
 
@@ -54,11 +60,10 @@
 \newcommand{\sbJapanese}[1]{
   \newdimen\origiwspc
   \origiwspc=\fontdimen2\font
-  \fontdimen2\font=1.2ex
+  \fontdimen2\font=1.2ex          % Slightly widen characters
   {#1}
   \fontdimen2\font=\origiwspc
 }
-
 
 %%%%%%% TABLE OF CONTENTS
 
@@ -67,8 +72,8 @@
 %%%%%%% SECTIONING
 
 \newcommand{\sbSection}[1]{
-  \section*{#1}
-  \addcontentsline{toc}{section}{#1}
+  \section*{#1}                         % No section numbers
+  \addcontentsline{toc}{section}{#1}    %
 }
 
 %%%%%%% GRAPHICS
@@ -88,6 +93,7 @@
 %        0         0         0         0         0         0         0         %
 %------------------------------------------------------------------------------%
 
+
 \begin{document}
 
 % Title Page
@@ -101,17 +107,15 @@
   \vspace{0.25in}
   {\Huge Sutra Book\par}
 	\vfill
-	{\includegraphics[width=0.30\textwidth]{omz-garden-statue.png}\par}
+	{\includegraphics[width=0.30\textwidth]{images/omz-garden-statue.png}\par}
 	\vfill
   {\large \emph{Buddha Nature is impermanence.}\par}
 	\vfill
 	{\large \today\par}
-
-% Bottom of the page
 \end{titlepage}
 
-
 \newpage 
+
 
 % Table of Contents
 % =================
@@ -121,8 +125,11 @@
 
 \newpage 
 
+% Sutras
+% ======
+
 \sbSection{Maha Prajna Paramita Heart Sutra}
-% ==========================================
+% ------------------------------------------
 
 Avalokitesvara Bodhisattva, doing deep prajna paramita,\\
 Clearly saw emptiness of all the five conditions,\\
@@ -163,7 +170,7 @@ Bodhi svaha! Prajna heart sutra!
 \newpage 
 
 \sbSection{Maka Hannya Haramita Shin Gyo}
-% =======================================
+% ---------------------------------------
 
 \sbJapanese{
   %MAKA HANNYA HARAMITA SHIN GYO\\
@@ -194,7 +201,7 @@ Bodhi svaha! Prajna heart sutra!
 \newpage 
 
 \sbSection{Identity of Relative and Absolute}
-% ===========================================
+% -------------------------------------------
 
 The mind of the Great Sage of India was intimately conveyed from west to east.\\
 Among human beings are wise ones and fools.\\
@@ -239,7 +246,7 @@ Do not waste your time by night or day.
 \newpage 
 
 \sbSection{Sandokai}
-% ==================
+% ------------------
 
 \sbJapanese{
   CHI KU DO DAI SEN NO SHIN TO ZAI MITSU NI AI\\
@@ -282,108 +289,102 @@ Do not waste your time by night or day.
 \newpage 
 
 \sbSection{The Lineage}
-% =====================
+% ---------------------
 
 \begin{multicols*}{3}    % * means let column width vary.
-     Bibashi Butsu Daiosho
-  \\ Shiki Butsu Daiosho 
-  \\ Bishafu Butsu Daiosho
-  \\ Kuruson Butsu Daiosho
-  \\ Kunagommuni Butsu Daiosho
-  \\ Kasho Butsu Daiosho
-  \\ Shakyamuni Butsu Daiosho
-  \\ Makakasho Daiosho
-  \\ Ananda Daiosho
-  \\ Shonawashu Daiosho
-  \\ Ubakikuta Daiosho
-  \\ Daitaka Daiosho
-  \\ Mishaka Daiosho
-  \\ Bashumitsu Daiosho
-  \\ Butsudanandai Daiosho
-  \\ Fudamitta Daiosho
-  \\ Barishiba Daiosho
-  \\ Funayasha Daiosho
-  \\ Anabotei Daiosho
-  \\ Kabimora Daiosho
-  \\ Nagyaharajuna Daiosho
-  \\ Kanadaiba Daiosho
-  \\ Ragarata Daiosho
-  \\ Sogyanandai Daiosho
-  \\ Kayashata Daiosho
-  \\ Kumorata Daiosho
-  \\ Shayata Daiosho
-  \\ Bashubanzu Daiosho
-  \\ Manura Daiosho
-
-  \columnbreak
-
-     Kakurokuna Daiosho
-  \\ Shishibodai Daiosho 
-  \\ Bashashita Daiosho
-  \\ Funyomitta Daiosho
-  \\ Hannyatara Daiosho
-  \\ Bodaidaruma Daiosho
-  \\ Taiso Eka Daiosho
-  \\ Kanchi Sosan Daiosho
-  \\ Daii Doshin Daiosho
-  \\ Daiman Konin Daiosho
-  \\ Daikan Eno Daiosho
-  \\ Seigen Gyoshi Daiosho
-  \\ Sekito Kisen Daiosho
-  \\ Yakusan Igen Daiosho
-  \\ Ungan Donjo Daiosho
-  \\ Tozan Ryokai Daiosho
-  \\ Ungo Doyo Daiosho
-  \\ Doan Dohi Daiosho
-  \\ Doan Kanshi Daiosho
-  \\ Ryozan Enkan Daiosho
-  \\ Taiyo Kyogen Daiosho
-  \\ Toshi Gisei Daiosho
-  \\ Fuyo Dokai Daiosho
-  \\ Tanka Shijun Daiosho
-  \\ Choro Seiryo Daiosho
-  \\ Tendo Sokaku Daiosho
-  \\ Setcho Chikan Daiosho
-  \\ Tendo Nyojo Daiosho
-  \\ Eihei Dogen Daiosho
-
-  \columnbreak
-
-     Koun Ejo Daiosho
-  \\ Tettsu Gikai Daiosho
-  \\ Keizan Jokin Daiosho
-  \\ Gasan Joseki Daiosho
-  \\ Taigen Soshin Daiosho
-  \\ Baizan Monpon Daiosho
-  \\ Nyocho Tengin Daiosho
-  \\ Kisan Shosan Daiosho
-  \\ Morin Shihan Daiosho
-  \\ Taishi Sotai Daiosho
-  \\ Kencho Hantetsu Daiosho
-  \\ Daiju Soko Daiosho
-  \\ Kinpo Jusen Daiosho
-  \\ Tetsuei Seiton Daiosho
-  \\ Shukoku Choton Daiosho
-  \\ Ketsuzan Tetsuei Daiosho
-  \\ Hoshi Soon Daiosho
-  \\ Goho Kainon Daiosho
-  \\ Tenkei Denson Daiosho
-  \\ Zozan Monko Daiosho
-  \\ Niken Sekiryo Daiosho
-  \\ Reitan Roryu Daiosho
-  \\ Kakujo Tosai Daiosho
-  \\ Kakuan Ryogu Daiosho
-  \\ Ryoka Daibai Daiosho
-  \\ Ungan Guhaku Daiosho
-  \\ Baian Hakujun Daiosho
-  \\ Hakuyu Taizan Daiosho
-  \\ Joko Beck Daiosho
+  Bibashi Butsu Daiosho      \\
+  Shiki Butsu Daiosho        \\ 
+  Bishafu Butsu Daiosho      \\ 
+  Kuruson Butsu Daiosho      \\ 
+  Kunagommuni Butsu Daiosho  \\ 
+  Kasho Butsu Daiosho        \\ 
+  Shakyamuni Butsu Daiosho   \\ 
+  Makakasho Daiosho          \\ 
+  Ananda Daiosho             \\ 
+  Shonawashu Daiosho         \\ 
+  Ubakikuta Daiosho          \\ 
+  Daitaka Daiosho            \\ 
+  Mishaka Daiosho            \\ 
+  Bashumitsu Daiosho         \\ 
+  Butsudanandai Daiosho      \\ 
+  Fudamitta Daiosho          \\ 
+  Barishiba Daiosho          \\ 
+  Funayasha Daiosho          \\ 
+  Anabotei Daiosho           \\ 
+  Kabimora Daiosho           \\ 
+  Nagyaharajuna Daiosho      \\ 
+  Kanadaiba Daiosho          \\ 
+  Ragarata Daiosho           \\ 
+  Sogyanandai Daiosho        \\ 
+  Kayashata Daiosho          \\ 
+  Kumorata Daiosho           \\ 
+  Shayata Daiosho            \\ 
+  Bashubanzu Daiosho         \\ 
+  Manura Daiosho             \columnbreak \\
+  Kakurokuna Daiosho         \\
+  Shishibodai Daiosho        \\ 
+  Bashashita Daiosho         \\ 
+  Funyomitta Daiosho         \\ 
+  Hannyatara Daiosho         \\ 
+  Bodaidaruma Daiosho        \\ 
+  Taiso Eka Daiosho          \\ 
+  Kanchi Sosan Daiosho       \\ 
+  Daii Doshin Daiosho        \\ 
+  Daiman Konin Daiosho       \\ 
+  Daikan Eno Daiosho         \\ 
+  Seigen Gyoshi Daiosho      \\ 
+  Sekito Kisen Daiosho       \\ 
+  Yakusan Igen Daiosho       \\ 
+  Ungan Donjo Daiosho        \\ 
+  Tozan Ryokai Daiosho       \\ 
+  Ungo Doyo Daiosho          \\ 
+  Doan Dohi Daiosho          \\ 
+  Doan Kanshi Daiosho        \\ 
+  Ryozan Enkan Daiosho       \\ 
+  Taiyo Kyogen Daiosho       \\ 
+  Toshi Gisei Daiosho        \\ 
+  Fuyo Dokai Daiosho         \\ 
+  Tanka Shijun Daiosho       \\ 
+  Choro Seiryo Daiosho       \\ 
+  Tendo Sokaku Daiosho       \\ 
+  Setcho Chikan Daiosho      \\ 
+  Tendo Nyojo Daiosho        \\ 
+  Eihei Dogen Daiosho        \columnbreak \\
+  Koun Ejo Daiosho           \\
+  Tettsu Gikai Daiosho       \\ 
+  Keizan Jokin Daiosho       \\ 
+  Gasan Joseki Daiosho       \\ 
+  Taigen Soshin Daiosho      \\ 
+  Baizan Monpon Daiosho      \\ 
+  Nyocho Tengin Daiosho      \\ 
+  Kisan Shosan Daiosho       \\ 
+  Morin Shihan Daiosho       \\ 
+  Taishi Sotai Daiosho       \\ 
+  Kencho Hantetsu Daiosho    \\ 
+  Daiju Soko Daiosho         \\ 
+  Kinpo Jusen Daiosho        \\ 
+  Tetsuei Seiton Daiosho     \\ 
+  Shukoku Choton Daiosho     \\ 
+  Ketsuzan Tetsuei Daiosho   \\ 
+  Hoshi Soon Daiosho         \\ 
+  Goho Kainon Daiosho        \\ 
+  Tenkei Denson Daiosho      \\ 
+  Zozan Monko Daiosho        \\ 
+  Niken Sekiryo Daiosho      \\ 
+  Reitan Roryu Daiosho       \\ 
+  Kakujo Tosai Daiosho       \\ 
+  Kakuan Ryogu Daiosho       \\ 
+  Ryoka Daibai Daiosho       \\ 
+  Ungan Guhaku Daiosho       \\ 
+  Baian Hakujun Daiosho      \\ 
+  Hakuyu Taizan Daiosho      \\ 
+  Joko Beck Daiosho          
 \end{multicols*}
 
 \newpage 
 
 \sbSection{Enmei Jukku Kannon Gyo}
-% ================================
+% --------------------------------
 
 \sbJapanese{
   KAN ZE ON NA MU\\
@@ -399,7 +400,7 @@ Do not waste your time by night or day.
 }
 
 \sbSection{Great Vows for All}
-% ============================
+% ----------------------------
 
 Sentient beings are numberless;\\
 I vow to save them.\\
@@ -411,7 +412,7 @@ The Buddha way is unsurpassable;\\
 I vow to embody it.
 
 \sbSection{Great Vows For All (Japanese)}
-% =======================================
+% ---------------------------------------
 
 \sbJapanese{
   SHUJO MU HEN SEI GAN DO\\
@@ -421,7 +422,7 @@ I vow to embody it.
 }
 
 \sbSection{Dedication}
-% ====================
+% --------------------
 
 All Buddhas Throughout Space and Time,\\
 All Honored Ones, Bodhisattvas, Mahasattvas,\\
