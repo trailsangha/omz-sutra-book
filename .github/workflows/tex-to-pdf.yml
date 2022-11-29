@@ -24,6 +24,6 @@ jobs:
         with:
           add: --force omz-sutra-book.pdf
           new_branch: publish
-          push: origin ${new_branch input} --set-upstream --force
+          push: origin publish --set-upstream --force
           author_name: Trail Sangha Bot
           author_email: trailsangha@google.com
