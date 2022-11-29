@@ -14,11 +14,11 @@ jobs:
         uses: hspaans/latexmk-action@v1
         with:
           format: pdf
-          filename: './omz-sutra-book.tex'
+          filename: omz-sutra-book.tex
 
       - name: Add and commit PDF document
       - uses: EndBug/add-and-commit@v9 
         with:
-          add: './omz-sutra-book.pdf'
+          add: omz-sutra-book.pdf
           author_name: Trail Sangha Bot
           author_email: trailsangha@google.com
