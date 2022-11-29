@@ -17,7 +17,7 @@ jobs:
           filename: omz-sutra-book.tex
 
       - name: Add and commit PDF document
-      - uses: EndBug/add-and-commit@v9 
+        uses: EndBug/add-and-commit@v9 
         with:
           add: omz-sutra-book.pdf
           author_name: Trail Sangha Bot
