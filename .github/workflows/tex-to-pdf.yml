@@ -23,5 +23,6 @@ jobs:
         uses: EndBug/add-and-commit@v9 
         with:
           add: --force omz-sutra-book.pdf
+          new_branch: publish
           author_name: Trail Sangha Bot
           author_email: trailsangha@google.com
