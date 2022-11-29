@@ -6,3 +6,4 @@ Ordinary Mind Zendo Sutra Book
 - [HTML](http://ordinarymind.com/sutra-book)
 
 [Ordinary Mind Zendo](http://ordinarymind.com)
+
