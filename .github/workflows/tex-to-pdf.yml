@@ -1,5 +1,5 @@
 ---
-name: CI
+name: Convert omz-sutra-book to PDF
 
 on: [push]
 
@@ -7,18 +7,21 @@ jobs:
   build-test:
     runs-on: ubuntu-latest
     steps:
+      # https://github.com/actions/checkout 
       - name: Checkout Code
         uses: actions/checkout@v2
 
+      # https://github.com/hspaans/latexmk-action
       - name: Generate PDF document
         uses: hspaans/latexmk-action@v1
         with:
           format: pdf
           filename: omz-sutra-book.tex
 
-      - name: Add and commit PDF document
+      # https://github.com/marketplace/actions/add-commit
+      - name: Add and (force) commit PDF document
         uses: EndBug/add-and-commit@v9 
         with:
-          add: omz-sutra-book.pdf
+          add: --force omz-sutra-book.pdf
           author_name: Trail Sangha Bot
           author_email: trailsangha@google.com
