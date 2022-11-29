@@ -2,6 +2,9 @@
 # Gitignore file for LaTeX
 # https://github.com/github/gitignore/blob/main/TeX.gitignore
 
+# The workflow will forcably commit this.
+omz-sutra-book.pdf
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
