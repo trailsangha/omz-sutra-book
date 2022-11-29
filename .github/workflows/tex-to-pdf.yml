@@ -14,9 +14,9 @@ jobs:
         uses: hspaans/latexmk-action@v1
         with:
           format: pdf
-          filename: omz-sutra-book.tex
+          filename: './omz-sutra-book.tex'
 
-      - name: Commit omz-sutra-book.pdf
+      - name: Add and commit PDF document
       - uses: EndBug/add-and-commit@v9 
         with:
           add: './omz-sutra-book.pdf'
